@@ -1,0 +1,31 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    
+}
+
+h1{
+    font-size: 60px;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+}
+.form-label{
+    color: white ;
+}
+.btn{
+    background-color:rgb(180, 8, 180) ;
+    color: white;
+    border: black;
+}
+.btn:hover{
+    background-color: rgb(202, 110, 202);
+}
+body{
+    height: 700px;
+    width: 100%;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../h.webp);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+}

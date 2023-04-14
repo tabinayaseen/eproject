@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)) !important;
+    height: 100% ;
+    width: 100%;
+    background-color:  #8E2DE2 !important; 
+}
+
+h1{
+    color: white;
+    text-align: center;
+    font-weight: bold;
+}
+span{
+    color: #8E2DE2;
+}
+.card {
+    height: 500px;
+    margin-top: 30px;
+    background: linear-gradient(rgba(0, 0, 0, 0.70),rgba(0, 0, 0, 0.70)) !important;
+    color: white;
+    box-shadow: #8E2DE2;
+    margin: 20px;
+    align-items: center;
+    /* display: inline-block; */
+    width: 400px;
+    
+
+}
+.food{
+    font-size: 40px;
+}
+    
+P{
+    display: block;
+}
+h3{
+    border-bottom: 10px;
+}
+#rides{
+    margin-left: 20px;
+}

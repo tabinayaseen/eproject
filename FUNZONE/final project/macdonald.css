@@ -1,0 +1,49 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+
+.one{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    color: white;
+    font-size: 60px;
+    text-shadow: 5px 5px 20px purple;
+}
+.main{
+    height: 500px;
+    background: linear-gradient(rgba(0,0,0,0.70), rgba(0,0,0,0.70)),url(assets/images/macc.jfif);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+.card{
+    border-color: purple;
+    border-style: double;
+box-shadow: 5px 5px 20px black ;
+
+}
+body{
+    background-color: rgb(84, 5, 111) !important;
+}
+.two{
+    color: white;
+    font-size: 30px;
+    position: relative;
+    top: 250px;
+    text-align: center;
+}
+.list-group-item{
+    font-weight: bold;
+    font-size: 20px;
+}   
+
+.three{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    text-shadow: 5px 5px 20px black;
+}
