@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<meta name="Description" content="Enter your description here"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<title>website</title>
+</head>
+<body>
+   <div class="container-fluid contact d-flex justify-content-center align-items-center">
+    <div class="row">
+        <h1 class="text-center">Contact us</h1>
+    </div>
+    
+   </div>
+      
+      <div class="container-fluid mt-5">
+        <div class="row">
+            <div class="col-md-6 col-sm-12">
+                <form class="row g-3 needs-validation" novalidate>
+                    <div class="col-md-12">
+                      <label for="validationCustom01" class="form-label">First Name</label>
+                      <input type="text" class="form-control" id="validationCustom01" required>
+                      <div class="valid-feedback">
+                         good!
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="validationCustom02" class="form-label">Last name</label>
+                      <input type="text" class="form-control" id="validationCustom02" required>
+                      <div class="valid-feedback">
+                         good!
+                      </div>
+                    </div>
+                    <div class="col-md-12
+                    ">
+                      <label for="validationCustomUsername" class="form-label">Email</label>
+                      <div class="input-group has-validation">
+                        <span class="input-group-text" id="inputGroupPrepend">@</span>
+                        <input type="text" class="form-control" id="validationCustomUsername" aria-describedby="inputGroupPrepend" required>
+                        <div class="invalid-feedback">
+                          Please Enter Your Name
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-md-12">
+                      <label for="validationCustom03" class="form-label">City</label>
+                      <input type="text" class="form-control" id="validationCustom03" required placeholder="Enter your City">
+                      <div class="invalid-feedback">
+                        Please provide a valid city.
+                      </div>
+                    </div>
+            
+                    <div class="col-md-12">
+                      <label for="validationCustom05" class="form-label">Contact no</label>
+                      <input type="text" class="form-control" id="validationCustom05" required placeholder="Enter your Contact">
+                      <div class="invalid-feedback">
+                        Please provide a valid Number
+                      </div>
+                    </div>
+                    <div class="col-12">
+                      <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="" id="invalidCheck" required>
+                        <label class="form-check-label" for="invalidCheck">
+                          Agree to terms and conditions
+                        </label>
+                        <div class="invalid-feedback">
+                          You must agree before submitting.
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-12">
+                    <a href="mailto:abc@gmail.com" style="text-decoration: none; color: white; font-size: 20px;">  Submit</a>
+                    </div>
+                  </form>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d14478.452361994625!2d67.13190340000001!3d24.8770608!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2s!4v1677822346603!5m2!1sen!2s" width="600" height="700" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
+            </div>
+        </div>
+       
+      </div>
+  
+    
+    
+    
+
+</body>
+</html>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.9.2/umd/popper.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.1.0/js/bootstrap.min.js"></script>
+<script>
+  // Example starter JavaScript for disabling form submissions if there are invalid fields
+(function () {
+  'use strict'
+
+  // Fetch all the forms we want to apply custom Bootstrap validation styles to
+  var forms = document.querySelectorAll('.needs-validation')
+
+  // Loop over them and prevent submission
+  Array.prototype.slice.call(forms)
+    .forEach(function (form) {
+      form.addEventListener('submit', function (event) {
+        if (!form.checkValidity()) {
+          event.preventDefault()
+          event.stopPropagation()
+        }
+
+        form.classList.add('was-validated')
+      }, false)
+    })
+})()
+</script>
